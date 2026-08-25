@@ -242,7 +242,7 @@
                 <mxCell id="103" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="81">
                     <mxGeometry y="240" width="330" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="104" value="shipping_days_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="103">
+                <mxCell id="104" value="shipping_day_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="103">
                     <mxGeometry width="147" height="30" as="geometry">
                         <mxRectangle width="147" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -427,8 +427,16 @@
                         <mxRectangle width="140" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="163" style="edgeStyle=none;html=1;entryX=0.419;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERmany;endFill=0;endSize=15;startSize=15;strokeWidth=3;" edge="1" parent="1" source="137" target="109">
+                <mxCell id="163" style="edgeStyle=none;html=1;entryX=0.419;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;endSize=15;startSize=15;strokeWidth=3;" edge="1" parent="1" source="137" target="109">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="589.9998403731745" y="339.9970023733152" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="509.9998403731745" y="369.9970023733152" as="geometry">
+                        <mxPoint x="87" y="27" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
