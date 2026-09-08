@@ -3,6 +3,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :items
+  has_many :orders
 
   VALID_NAME_REGEX = /\A[ぁ-んァ-ヶ一-龥々ー]+\z/
   VALID_KANA_REGEX = /\A[ァ-ヶー]+\z/
