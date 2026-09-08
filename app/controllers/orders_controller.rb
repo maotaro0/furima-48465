@@ -13,8 +13,9 @@ class OrdersController < ApplicationController
     @order_address.item_id = @item.id
     @order_address.user_id = current_user.id
 
-    if @order_address.save
+    if @order_address.valid?
       pay_item
+      @order_address.save
       redirect_to root_path
     else
       gon.public_key = ENV['PAYJP_PUBLIC_KEY']
@@ -46,7 +47,7 @@ class OrdersController < ApplicationController
       :postal_code,
       :prefecture_id,
       :city,
-      :addresses,
+      :house_number,
       :building,
       :phone_number
     )
