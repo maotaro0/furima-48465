@@ -21,7 +21,7 @@ test:
 production:
   adapter: mysql2
   encoding: utf8mb4
-  database: furima__production
+  database: furima_48465_production
   username: root
   password: <%= ENV['DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock
